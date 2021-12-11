@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="./img/e shoppy icon.jpg"/>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+p {
+  font-size: 30px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <img src="./img/About us1.webp" width="50% height="50%">
+  <p>Some text about who we are and what we do.</p>
+  <p>"Teamwork begins by building trust. And the only way to do that is to overcome our need for invulnerability."</p>
+</div>
+
+<h1 style="text-align:center; font-size: 40px;">Our Team</h1>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="./img/men icon.jfif" alt="Jane" style="width: 100%">
+      <div class="container">
+        <h2>Veera Venkatesh</h2>
+        <p class="title">Team Member</p>
+        <p>“All our dreams can come true, if we have the courage to pursue them.”</p>
+        <a href="">venkatesh@hcl.com</a>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img class="img" src="./img/men icon.jfif" alt="Mike" style="width:100%", height="250px;">
+      <div class="container">
+        <h2>Sai Pranay</h2>
+        <p class="title">Team Member</p>
+        <p>“It’s hard to beat a person who never gives up.”</p>
+        <a href="">pranay@hcl.com</a>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="./img/women icon.jfif" alt="John" style="width:100%", height="250px;">
+      <div class="container">
+        <h2>Hema Battula</h2>
+        <p class="title">Team Member</p>
+        <p>“Impossible is just an opinion.”</p>
+        <a href="">hema@hcl.com</a>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+    <div class="card">
+      <img src="./img/men icon.jfif" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Bala Krishna</h2>
+        <p class="title">Team Member</p>
+        <p>“If you’re offered a seat on a rocket ship, don’t ask what seat! Just get on.” </p>
+        <a href="">balakrishna@hcl.com</a>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+    <div class="card">
+      <img src="./img/men icon.jfif" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Jeevan Kumar</h2>
+        <p class="title">Team Member</p>
+        <p>“Great things are done by a series of small things brought together” </p>
+        <a href="">jeevan@hcl.com</a>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
